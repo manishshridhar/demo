@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <parameter name="firstName" value="Priti"/>
+  <parameter name="lastName" value="Dua"/>
+  <test thread-count="5" name="GetNames(failed)">
+    <classes>
+      <class name="testngPack.Functional">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="beforeClass"/>
+          <include name="displayNamesAgain"/>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="beforeSuite"/>
+          <include name="afterSuite"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- testngPack.Functional -->
+    </classes>
+  </test> <!-- GetNames(failed) -->
+</suite> <!-- Failed suite [Suite] -->

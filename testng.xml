@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">  
+<suite name="Suite">  
+
+<parameter name="firstName" value="Priti"/>  
+<parameter name="lastName" value="Dua"/>
+  
+<test name="GetNames"> 
+  
+  <classes>  
+    <class name= "testngPack.Functional"/>  
+  </classes>
+    
+ </test>  
+</suite> <!-- Suite -->  
